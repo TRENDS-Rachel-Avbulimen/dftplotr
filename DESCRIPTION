@@ -5,7 +5,8 @@ Version: 0.2.1
 Authors@R: 
     c(
     person("Linda", "Bennett", , "linda.bennett@dft.gov.uk", role = c("aut")),
-    person("Francesca", "Bryden", , "francesca.bryden@dft.gov.uk", role = c("aut", "cre")))
+    person("Francesca", "Bryden", , "francesca.bryden@dft.gov.uk", role = c("aut", "cre")),
+    person("Rachel", "Avbulimen", , "rachel.avbulimen@dft.gov.uk", role = c("aut")))
 Description: Functions to produce accessible charts with DfT style and palettes.
 Imports: ggplot2,   
          scales,
