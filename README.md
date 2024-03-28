@@ -44,17 +44,30 @@ This theme also sets the x-axis intercept at y to 0.
 
 ## Colour palettes
 
-The dftplotR package comes with 6 pre-loaded palettes. These contain
+The dftplotR package comes with 9 pre-loaded palettes. These contain
 colours taken from the DfT corporate colour scheme, and have also been
-selected to meet accessibility guidance. The two primary palettes are
+selected to meet accessibility guidance. 
+
+The palettes and the colours in them can be seen here, or visualised
+within the package by calling `display.palette()` and the palette name.
+
+### Accessible colours
+
+These new colours were designed to be more accessible. Each colour has a high 
+contrast with both white and with the adjacent colours. In order to make your
+charts more accessible, it is recommended to use the palettes presented below. 
+
+
+
+### Legacy colours
+
+The dftplotr package also includes other legacy palettes, which are not as
+accessible as the ones recommended above. The two primary palettes are
 `main.palette`; a desaturated palette ideal for use in bar charts or
 other area fill charts, and `electric.brights`, a saturated palette
 which improves visibility in line-charts or other point colour charts.
 The other palettes are ideal where these palettes are not appropriate,
 or where variation is needed.
-
-The palettes and the colours in them can be seen here, or visualised
-within the package by calling `display.palette()` and the palette name.
 
 <img src="README_files/figure-gfm/unnamed-chunk-1-1.png" width="80%" style="display: block; margin: auto;" />
 
@@ -124,15 +137,22 @@ common forms of colour blindness, and should also be discernable in
 greyscale. The standard palettes in this package have been designed to
 meet WCAG 2.0 accessibility guidance.
 
-Four of the created palettes (`main.palette`, `electric.brights`,
-`just.beachy` and `cycling.hills`) contain four colours each, and meet
-WCAG 2.0 AAA guidance. All colours have a contrast ratio of at least
+Two of the created accessible palettes (`travel.direction`, `country.lane`) 
+contain 8 colours each, and only one accessible palette (`joyful.journey`) 
+contains 6 colours each, and meet WCAG 2.0 AAA guidance. 
+
+Three of the created legacy palettes (`electric.brights`, `just.beachy`
+and `cycling.hills`) contain 5 colours each, two legacy palettes (`clear.skies` 
+and `mountain.train`) contain 6 colours each, and only one legacy palette 
+(`main.palette`) contain 4 colours each, and meet WCAG 2.0 AAA guidance. 
+
+Four of the created legacy palettes (`main.palette`, `electric.brights`,
+`just.beachy` and `cycling.hills`) have a contrast ratio of at least
 4.5:1 to the bars adjacent to them, and alternate light and dark shades
 to further increase contrast. This is the highest standard of
 accessibility and should be used when possible.
 
-Two of the created palettes (`mountain.train` and `clear.skies`) contain
-6 colours each, and meet WCAG 2.0 AA guidance. All colours have a
+Two of the created legacy palettes (`mountain.train` and `clear.skies`) have a
 contrast ration of at least 3:1 to the bars adjacent to them, and
 alternate light and dark shades to further increase contrast. This is
 the minimum standard of accessibility required for publication and use
