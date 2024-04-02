@@ -140,11 +140,6 @@ Two of the created accessible palettes (`travel.direction`, `country.lane`)
 contain 8 colours each, and only one accessible palette (`joyful.journey`) 
 contains 6 colours each, and meet WCAG 2.0 AAA guidance. 
 
-Three of the created legacy palettes (`electric.brights`, `just.beachy`
-and `cycling.hills`) contain 5 colours each, two legacy palettes (`clear.skies` 
-and `mountain.train`) contain 6 colours each, and only one legacy palette 
-(`main.palette`) contain 4 colours each, and meet WCAG 2.0 AAA guidance. 
-
 Four of the created legacy palettes (`main.palette`, `electric.brights`,
 `just.beachy` and `cycling.hills`) have a contrast ratio of at least
 4.5:1 to the bars adjacent to them, and alternate light and dark shades

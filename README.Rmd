@@ -127,8 +127,6 @@ The dftplotr colour palettes aim to be accessible to those with the most common 
 
 Two of the created accessible palettes (`travel.direction`, `country.lane`) contain 8 colours each, and only one accessible palette (`joyful.journey`) contains 6 colours each, and meet WCAG 2.0 AAA guidance. 
 
-Three of the created legacy palettes (`electric.brights`, `just.beachy` and `cycling.hills`) contain 5 colours each, two legacy palettes (`clear.skies` and `mountain.train`) contain 6 colours each, and only one legacy palette (`main.palette`) contain 4 colours each, and meet WCAG 2.0 AAA guidance. 
-
 Four of the created legacy palettes (`main.palette`, `electric.brights`, `just.beachy` and `cycling.hills`) have a contrast ratio of at least 4.5:1 to the bars adjacent to them, and alternate light and dark shades to further increase contrast. This is the highest standard of accessibility and should be used when possible.
 
 Two of the created legacy palettes (`mountain.train` and `clear.skies`) have a contrast ration of at least 3:1 to the bars adjacent to them, and alternate light and dark shades to further increase contrast. This is the minimum standard of accessibility required for publication and use should be limited to times when a larger palette is required.
