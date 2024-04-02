@@ -19,7 +19,7 @@ The package can be installed directly from Github using the remotes
 
 The package contains the following functions:
 
-`scale_colour_dft`: ggplot function which applies one of a range of DfT
+`scale_colour_dft`: ggplot function which applies one of a range of DfT 
 palettes to a ggplot line chart (or other chart which groups by
 **colour**)
 
@@ -57,7 +57,7 @@ These new colours were designed to be more accessible. Each colour has a high
 contrast with both white and with the adjacent colours. In order to make your
 charts more accessible, it is recommended to use the palettes presented below. 
 
-
+<img src="README_files/figure-gfm/unnamed-chunk-1-1.png" width="80%" style="display: block; margin: auto;" />
 
 ### Legacy colours
 
@@ -69,7 +69,7 @@ which improves visibility in line-charts or other point colour charts.
 The other palettes are ideal where these palettes are not appropriate,
 or where variation is needed.
 
-<img src="README_files/figure-gfm/unnamed-chunk-1-1.png" width="80%" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
 
 ## Gradient palettes
 
@@ -88,7 +88,7 @@ the `n =` argument, e.g. `n = 8` for a palette with 8 shades. When this
 argument is not used, the default number of shades is 5. Example
 gradient palettes with 5 shades can be seen below:
 
-<img src="README_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-3-1.png" width="80%" style="display: block; margin: auto;" />
 
 ## ggplot2 themes
 
@@ -112,14 +112,13 @@ intercept of the x-axis with the y-axis to 0.
 The difference between a bar plot without themeing and one with the
 `theme_bar_dft` theme can be seen below:
 
-<img src="README_files/figure-gfm/unnamed-chunk-3-1.png" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-3-2.png" width="50%" />
+<img src="README_files/figure-gfm/unnamed-chunk-4-1.png" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-4-2.png" width="50%" />
 
 ## Palette picker tool
 
-The palette picker tool is a Shiny tool which is now [available directly
-here](https://rstudio-connect/palette_picker/) instead of bundled into the package. This tool allows
-visualisation of all DfT corporate colours in two chart formats; line
-and bar, to allow you to build and visualise your own custom palettes.
+The palette picker tool is a Shiny tool which is now [available directly here](https://rstudio-connect/palette_picker/) instead of bundled into the package. 
+This tool allows visualisation of all DfT corporate colours in two chart formats; 
+line and bar, to allow you to build and visualise your own custom palettes.
 
 It contains options to allow you to select a WCAG 2.0 accessibility
 rating you require the palette to meet, and functions to show what that
